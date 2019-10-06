@@ -1,0 +1,19 @@
+{
+    "name": "chabberwock/siteinfo",
+    "description": "Get ssl and domain expiry dates for selected google search results",
+    "autoload": {
+        "psr-4": {
+            "Chabberwock\\Siteinfo\\" : "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandr Makarov",
+            "email": "notengine@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "novutec/whoisparser": "*"
+    }
+}
